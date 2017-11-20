@@ -15,7 +15,7 @@ if(isset($str))
 ?>
 
 <!DOCTYPE html>
-<html lang="en" itemscope itemtype="http://schema.org/WebSite">
+<html lang="en" itemscope itemtype="http://wishes2018.tk/WebSite">
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -132,4 +132,4 @@ $(document).ready(function(){
 <script src="https://cdnjs.cloudflare.com/ajax/libs/parsley.js/2.5.1/parsley.min.js"></script>
 
 </body>
-</html>
+</html>	
