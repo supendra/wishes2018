@@ -1,16 +1,5 @@
 <?php
 
-/*
-Plugin Name: MSK Festival Wishes Web App
-Plugin URI: https://www.allwebtuts.com/festival-wishes-web-app/
-Description: Festival Wishes Web App - A PHP Plugin Which Helps us to Create an Awesome SEO Friendly Festival Event Wishing Web App with Custom Greeting Wishes Page.
-Version: 1.2
-Author: Santhosh veer
-Author URI: https://www.mskian.com
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-*/
-
 include('db.php');
 
 if(isset($_POST['create-wish']))
@@ -49,7 +38,7 @@ exit();
 ?>
 
 <!DOCTYPE html>
-<html lang="en" itemscope itemtype="http://schema.org/WebSite">
+<html lang="en" itemscope itemtype="http://wishes2018.tk/WebSite">
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -60,21 +49,21 @@ exit();
 
 <!-- Edit the Meta Tags Add your Own Meta Contents  -->
 <!-- Seo Meta Tags -->
-<title>Mskian Festival Wishes Web App</title>
-<meta name="description" content="Create an Awesome Name Wishing Festival Web App."/>
+<title>Friendly Wishes Web App</title>
+<meta name="description" content="Create an Awesome Name Friendly Wishing Web App."/>
 <meta name="robots" content="index,follow">
 <link href='YOUR FAVICON URL' rel='icon' type='image/x-icon'/>
 
 <!-- Twitter Card data -->
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Mskian Festival Wishes Web App" />
-<meta name="twitter:description" content="Create an Awesome Name Wishing Festival Web App." />
+<meta name="twitter:title" content="Friendly Wishes Web App" />
+<meta name="twitter:description" content="Create an Awesome Name Friendly Wishing Web App." />
 <meta name="twitter:image" content="THUMBNAIL IMAGE FOR TWITTER SHARE" />
 <meta name="twitter:site" content="@yourtwitterusername" />
 <meta name="twitter:creator" content="@yourtwitterusername" />
 
 <!-- Facebook Open Graph data -->
-<meta property="og:title" content="Mskian Festival Wishes Web App" />
+<meta property="og:title" content="Friendly Wishes Web App" />
 <meta property="og:type" content="website"/>
 <meta property="og:url" content="YOUR WEB APP URL" />
 <meta property="og:image" content="THUMBNAIL IMAGE FOR FACEBOOK SHARE" />
@@ -83,7 +72,7 @@ exit();
 <meta property="fb:app_id" content="APP ID" />
 
 <!-- Google+ Meta Tags. -->
-<meta itemprop="name" content="Mskian Festival Wishes Web App">
+<meta itemprop="name" content="Friendly Wishes Web App">
 <meta itemprop="description" content="Create an Awesome Name Wishing Festival Web App.">
 <meta itemprop="image" content="THUMBNAIL IMAGE FOR GOOGLE+ SHARE">
 
